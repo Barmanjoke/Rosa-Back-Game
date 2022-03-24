@@ -1,6 +1,6 @@
+from django.http import JsonResponse
 from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
 
 # Create your views here.
-def hello(request):
-    return JsonResponse({'Hel':'lo'})
+def update_milestone(request):
+    return JsonResponse({"bra", "vo"})
